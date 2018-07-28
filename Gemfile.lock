@@ -1,0 +1,15 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    concurrent-ruby (1.0.5)
+    newrelic_rpm (5.2.0.345)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  concurrent-ruby!
+  newrelic_rpm!
+
+BUNDLED WITH
+   1.16.1
