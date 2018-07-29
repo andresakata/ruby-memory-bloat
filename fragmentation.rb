@@ -7,7 +7,6 @@ class FragmentationCreator
     @threads = threads
     @jobs = jobs
     @array_size = array_size
-    @pid = Process.pid
     file = File.open(file_name, File::WRONLY | File::APPEND | File::CREAT)
     @logger = Logger.new(file)
   end
