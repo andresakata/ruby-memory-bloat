@@ -2,14 +2,14 @@ GEM
   remote: https://rubygems.org/
   specs:
     concurrent-ruby (1.0.5)
-    newrelic_rpm (5.2.0.345)
+    get_process_mem (0.2.2)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   concurrent-ruby!
-  newrelic_rpm!
+  get_process_mem!
 
 BUNDLED WITH
    1.16.1
