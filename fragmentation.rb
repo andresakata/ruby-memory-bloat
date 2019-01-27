@@ -21,7 +21,7 @@ class FragmentationCreator
     end
     pool.shutdown
     pool.wait_for_termination
-    @logger.info(Time.now - start_time)
+    @logger.info("Time: " + (Time.now - start_time).to_s)
   end
 
   def thread_process(big_array)
